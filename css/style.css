@@ -51,7 +51,7 @@ button.menu {
 	display:none;
 }
 .banner{
-	background:url(../images/bnr.jpg) no-repeat 0px 0px;
+	background:url(../images/banner-1.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:790px;
 }
@@ -63,7 +63,7 @@ button.menu {
 }
 .banner_head_top {
     background: #fff;
-    padding:20px 44px 10px;
+    padding:20px 44px 0px;
 	margin-top:3em;
 }
 .logo h1 a{
@@ -85,7 +85,7 @@ button.menu {
     padding: 0.3em 0em 0.3em 1em;
 }
 .details {
-    padding-top: 35px;
+    padding-right: 15px;
 }
 .details ul li:nth-child(1) {
     margin-right: 3em;
@@ -133,15 +133,24 @@ button.menu {
 .navbar-default {
     background-color: #FFFFFF;
     border-color: #FFFFFF;
+	background:none;
+	border:0px;
 }
 .navbar {
     margin: 0em 0;
 }
 .top-menu {
-    border-top: 1px ridge #eee;
+    border-bottom: 1px ridge #eee;
+	    float: left;
+    position: relative;
+    top: -50px;
+}
+.navbar-nav {
+	    padding: 0 180px;
+    margin-top: 10px;
 }
 .banner-head {
-    margin-bottom: 1em;
+    margin-top: 10px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color: transparent;
@@ -362,6 +371,7 @@ ul#flexiselDemo1 li a h4:hover{
 	position: relative;
 	  width: 90%;
   margin: 0 5%;
+  height:160px;
 }
 .nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
 	width: 45px;
