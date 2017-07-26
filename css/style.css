@@ -51,7 +51,7 @@ button.menu {
 	display:none;
 }
 .banner{
-	background:url(../images/bnr.jpg) no-repeat 0px 0px;
+	background:url(../images/banner-1.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:790px;
 }
@@ -85,7 +85,7 @@ button.menu {
     padding: 0.3em 0em 0.3em 1em;
 }
 .details {
-    padding-right: 10px;
+    padding-top: 15px;
 }
 .details ul li:nth-child(1) {
     margin-right: 3em;
@@ -264,7 +264,7 @@ a.btn-right {
 }
 /*--services--*/
 .company{
-background:#f8fcff;
+/*background:#f8fcff;*/
 padding:4em 0;
 }
 .glyphicon-ok:before {
@@ -317,6 +317,9 @@ span.glyphicon.glyphicon-euro{
 /*--special--*/
 .special{
 	padding:3em 0;
+	border-top:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	background: #f1f1f1;
 }
 #flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
 	display: none;
@@ -343,7 +346,7 @@ span.glyphicon.glyphicon-euro{
 	padding: 0px;
 	cursor: pointer;
 	position: relative;
-	border:1px solid #fff;
+	/*border:1px solid #fff;*/
 }
 ul#flexiselDemo1 li a{
 	text-decoration:none;
@@ -366,6 +369,7 @@ ul#flexiselDemo1 li a h4:hover{
 	  width: 90%;
   margin: 0 5%;
   height:160px;
+  border:1px solid #fff;
 }
 .nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
 	width: 45px;
@@ -609,8 +613,9 @@ background-position:-167px -36px;
 	color:#00a239;
 }
 /*--about--*/
+.img-responsive {border: 1px solid #bbb9b9;}
 .banner2{
-	background:url(../images/bnr.jpg) no-repeat 0px 0px;
+	background:url(../images/banner-1.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:270px;
 }
@@ -1520,11 +1525,11 @@ button.menu {
 }
 .banner {
     padding-bottom: 2em;
-	background: url(../images/bnr.jpg) no-repeat -142px 0px;
+	background: url(../images/banner-1.jpg) no-repeat -142px 0px;
     background-size: cover;
 }
 .banner2{
-	background: url(../images/bnr.jpg) no-repeat 0px 0px;
+	background: url(../images/banner-1.jpg) no-repeat 0px 0px;
 }
 .welcome p {
     width: 93%;
@@ -1586,7 +1591,7 @@ button.menu {
 	margin-top: 2em;
 }
 .banner {
-    background: url(../images/bnr.jpg) no-repeat -251px 0px;
+    background: url(../images/banner-1.jpg) no-repeat -251px 0px;
     background-size: cover;
 }
 .welcome_pic img {
@@ -1606,6 +1611,7 @@ button.menu {
 }
 .nbs-flexisel-item > a img {
     width: 98%;
+	height:200px;
 }
 ul#flexiselDemo1 li a h4 {
     font-size: 1.1em;
@@ -1624,7 +1630,7 @@ ul#flexiselDemo1 li a h4 {
     font-size: 1.2em;
 }
 .banner2 {
-    background: url(../images/bnr.jpg) no-repeat 0px 0px;
+    background: url(../images/banner-1.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 .abt-info-pic h3 {
